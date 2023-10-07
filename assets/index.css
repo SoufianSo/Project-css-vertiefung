@@ -1,0 +1,147 @@
+/* ====================================================================
+RESET
+=====================================================================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Lato-Black;
+  src: url(./font/Lato-Black.ttf);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  display: block;
+  width: 100%;
+}
+body {
+  background-color: #e9e0e0;
+}
+.navigation {
+  margin: 0 auto;
+  background-color: white;
+}
+/* ====================================================================
+ HEADER
+=====================================================================*/
+
+nav .navigation_1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  text-transform: uppercase;
+  padding-inline: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 60px;
+  font-size: 20px;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.big-image-box {
+  margin-bottom: 40px;
+}
+.text-holder {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+/* ====================================================================
+MAIN
+=====================================================================*/
+main {
+  padding-inline: 40px;
+}
+.small-image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px 0;
+}
+.small-image-holder {
+  margin-bottom: 20px;
+}
+img {
+  transition: all ease-in-out 300ms;
+}
+
+/* ====================================================================
+footer
+=====================================================================*/
+
+footer {
+  padding-inline: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer div:nth-of-type(1) {
+  grid-column: 1/ 3;
+}
+
+footer div:nth-of-type(3) {
+  grid-column: 4/ 6;
+}
+
+footer h4 {
+  padding-block: 40px;
+  font-family: Lato-Black;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+footer h6 {
+  padding-bottom: 40px;
+  font-family: Lato-Black;
+  font-size: 12px;
+  font-weight: 400;
+  padding-right: 64px;
+  line-height: 20px;
+}
+
+footer span {
+  font-weight: 700;
+}
+
+footer p {
+  font-family: Lato-Black;
+  font-size: 10px;
+  font-weight: 400;
+  color: #848484;
+}
+
+.contact a {
+  font-family: Lato-Black;
+  font-size: 10px;
+  font-weight: 400;
+  color: #323a45;
+  display: block;
+}
+
+.newsletter p {
+  padding-bottom: 40px;
+  font-family: Lato-Black;
+  font-size: 12px;
+  font-weight: 400;
+  padding-right: 50px;
+  line-height: 20px;
+  color: black;
+}
+
+.social a {
+  display: block;
+  font-family: Lato-Black;
+  font-size: 10px;
+  font-weight: 400;
+  color: #323a45;
+  padding-bottom: 2px;
+}
